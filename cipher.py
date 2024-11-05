@@ -1,6 +1,6 @@
 # add your code here
 def caesar_cipher(text, shift=5):
-    encrypted_text = 
+    encrypted_text = ""
     
     for char in text:
         if char.isalpha():
@@ -12,6 +12,6 @@ def caesar_cipher(text, shift=5):
             
     return encrypted_text
 
-plain_text = input(Please enter a sentence: )
+plain_text = input("Please enter a sentence: ")
 encrypted_text = caesar_cipher(plain_text)
-print(The encrypted sentence is:, encrypted_text)
+print("The encrypted sentence is:", encrypted_text)
